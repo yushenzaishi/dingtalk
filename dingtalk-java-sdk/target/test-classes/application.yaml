@@ -1,0 +1,16 @@
+dt:
+  app:
+    appKey: dingiolitjdrxylnqmzo
+    appSecret: hNnrAUi9rMP2OE6GcMdY9IwfPX6Ieq7hXTo-cC-K2I29-ETmqXoPZyfiR1iDjPEr
+spring:
+  redis:
+    host: 47.116.52.58
+    port: 6379
+    time-out: 28800
+    database: 10
+    password: farben123
+    jedis:
+      pool:
+        max-active: 20
+        max-wait: 200
+        min-idle: 0
