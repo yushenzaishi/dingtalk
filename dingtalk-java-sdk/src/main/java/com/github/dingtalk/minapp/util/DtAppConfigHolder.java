@@ -3,8 +3,8 @@ package com.github.dingtalk.minapp.util;
 /**
  * 小程序存储值存放类.
  *
- * @author <a href="https://github.com/binarywang">Binary Wang</a>
- * @date 2020-08-16
+ * @author yuhaoda
+ * @date 2021-02-04
  */
 public class DtAppConfigHolder {
   private final static ThreadLocal<String> THREAD_LOCAL = new ThreadLocal<String>() {

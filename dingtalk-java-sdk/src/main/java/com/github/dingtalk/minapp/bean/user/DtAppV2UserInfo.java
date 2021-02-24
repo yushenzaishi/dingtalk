@@ -1,6 +1,5 @@
-package com.github.dingtalk.minapp.bean;
+package com.github.dingtalk.minapp.bean.user;
 
-import com.taobao.api.internal.mapping.ApiField;
 import lombok.Data;
 
 import java.io.Serializable;
@@ -10,9 +9,9 @@ import java.io.Serializable;
  * @Date 2021/2/7 15:11
  **/
 @Data
-public class DtAppUserInfo implements Serializable {
+public class DtAppV2UserInfo implements Serializable {
 
-    private static final long serialVersionUID = -2628464615260234182L;
+    private static final long serialVersionUID = -2135540765025139855L;
 
     private String associatedUnionid;
     private String deviceId;

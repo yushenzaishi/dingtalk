@@ -5,10 +5,9 @@ import com.github.dingtalk.minapp.redis.DtRedisOps;
 import java.util.concurrent.TimeUnit;
 
 /**
- * 基于redis存储的微信小程序配置类
- *
- *  * @author yuhaoda
- *  * @date 2021-02-04
+ * 基于redis存储的配置类
+ * @author yuhaoda
+ * @date 2021-02-04
  */
 public class DtAppRedisBetterConfigImpl extends DtAppDefaultConfigImpl {
   private static final String ACCESS_TOKEN_KEY_TPL = "%s:access_token";

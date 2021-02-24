@@ -8,6 +8,12 @@ import org.springframework.data.redis.core.StringRedisTemplate;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Lock;
 
+/**
+ * RedisTemplate实现类
+ *
+ * @author yuhaoda
+ * @date 2021-02-04
+ */
 @RequiredArgsConstructor
 public class RedisTemplateDtRedisOps implements DtRedisOps {
 

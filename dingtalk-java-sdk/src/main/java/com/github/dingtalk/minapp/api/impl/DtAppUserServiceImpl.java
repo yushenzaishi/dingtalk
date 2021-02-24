@@ -1,21 +1,20 @@
 package com.github.dingtalk.minapp.api.impl;
 
-import com.github.dingtalk.minapp.api.DtAppService;
 import com.github.dingtalk.minapp.api.DtAppUserService;
-import com.github.dingtalk.minapp.bean.DtAppUserInfo;
+import com.github.dingtalk.minapp.bean.user.DtAppUserInfo;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 
 /**
  * @Author young
- * @Date 2021/2/7 15:17
+ * @Date 2021/2/19 14:44
  **/
+@Slf4j
 @RequiredArgsConstructor
 public class DtAppUserServiceImpl implements DtAppUserService {
 
-    private final DtAppService dtAppService;
-
     @Override
     public DtAppUserInfo getUserInfo(String requestAuthCode) {
-        return new DtAppUserInfo();
+        return null;
     }
 }

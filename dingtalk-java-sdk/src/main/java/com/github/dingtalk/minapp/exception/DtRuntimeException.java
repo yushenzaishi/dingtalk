@@ -3,8 +3,8 @@ package com.github.dingtalk.minapp.exception;
 /**
  * WxJava专用的runtime exception.
  *
- * @author <a href="https://github.com/binarywang">Binary Wang</a>
- * @date 2020-09-26
+ * @author yuhaoda
+ * @date 2021-02-04
  */
 public class DtRuntimeException extends RuntimeException {
   private static final long serialVersionUID = 4881698471192264412L;

@@ -1,4 +1,4 @@
-package com.github.dingtalk.minapp.bean;
+package com.github.dingtalk.minapp.bean.user;
 
 import lombok.Data;
 
@@ -12,10 +12,10 @@ import java.io.Serializable;
  */
 @Data
 public class DtAccessToken implements Serializable {
-  private static final long serialVersionUID = 8709719312922168909L;
+
+  private static final long serialVersionUID = 8931695274186189094L;
 
   private String accessToken;
-
   private int expiresIn = -1;
 
 

@@ -8,7 +8,8 @@ import com.taobao.api.ApiException;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * @author <a href="https://github.com/binarywang">Binary Wang</a>
+ * @author yuhaoda
+ * @date 2021-02-04
  */
 @Slf4j
 public class DtAppServiceHttpClientImpl extends BaseDtAppServiceImpl {

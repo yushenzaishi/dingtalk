@@ -2,7 +2,7 @@ package com.github.dingtalk.minapp.api.impl;
 
 import com.dingtalk.api.response.OapiGettokenResponse;
 import com.github.dingtalk.minapp.api.DtAppService;
-import com.github.dingtalk.minapp.api.DtAppUserService;
+import com.github.dingtalk.minapp.api.DtAppV2UserService;
 import com.github.dingtalk.minapp.config.DtAppConfig;
 import com.github.dingtalk.minapp.exception.DtRuntimeException;
 import com.github.dingtalk.minapp.util.DtAppConfigHolder;
@@ -24,7 +24,7 @@ import java.util.concurrent.locks.Lock;
 @Slf4j
 public abstract class BaseDtAppServiceImpl implements DtAppService {
   protected static final Gson GSON = new Gson();
-  private final DtAppUserService userService = new DtAppUserServiceImpl(this);
+  private final DtAppV2UserService userService = new DtAppV2UserServiceImpl(this);
   private Map<String, DtAppConfig> configMap;
   private int retrySleepMillis = 1000;
   private int maxRetryTimes = 5;
@@ -121,7 +121,7 @@ public abstract class BaseDtAppServiceImpl implements DtAppService {
   }
 
   @Override
-  public DtAppUserService getUserService() {
+  public DtAppV2UserService getUserService() {
     return this.userService;
   }
 
