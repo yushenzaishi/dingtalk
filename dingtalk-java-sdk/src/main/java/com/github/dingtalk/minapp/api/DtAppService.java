@@ -79,6 +79,8 @@ public interface DtAppService {
 
   void setMultiConfigs(Map<String, DtAppConfig> configs, String defaultAppKey);
 
-  DtAppV2UserService getUserService();
+  DtAppV2UserService getV2UserService();
+
+  DtAppV2DeptService getV2DeptService();
 
 }

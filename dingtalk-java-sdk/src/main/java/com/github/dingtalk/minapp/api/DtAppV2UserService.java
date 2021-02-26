@@ -78,18 +78,18 @@ public interface DtAppV2UserService {
   /**
    * 用户信息创建
    *
-   * @param dtAppV2UserCreateOrUpdateModel : 用户创建实体类
+   * @param dtAppV2UserCreateModel : 用户创建实体类
    * @return : userid 用户id
    */
-  String createUserV2(DtAppV2UserCreateOrUpdateModel dtAppV2UserCreateOrUpdateModel);
+  String createUserV2(DtAppV2UserCreateModel dtAppV2UserCreateModel);
 
   /**
    *
    *
-   * @param dtAppV2UserCreateOrUpdateModel : 用户更新实体类
+   * @param dtAppV2UserCreateModel : 用户更新实体类
    * @return : 更新标识 true:成功 fasle:失败
    */
-  Boolean updateUserV2(DtAppV2UserCreateOrUpdateModel dtAppV2UserCreateOrUpdateModel);
+  Boolean updateUserV2(DtAppV2UserUpdateModel dtAppV2UserUpdateModel);
 
   /**
    * 用户删除

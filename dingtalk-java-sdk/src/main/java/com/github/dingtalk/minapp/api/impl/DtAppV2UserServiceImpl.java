@@ -49,12 +49,12 @@ public class DtAppV2UserServiceImpl implements DtAppV2UserService {
     }
 
     @Override
-    public String createUserV2(DtAppV2UserCreateOrUpdateModel dtAppV2UserCreateOrUpdateModel) {
+    public String createUserV2(DtAppV2UserCreateModel dtAppV2UserCreateModel) {
         return null;
     }
 
     @Override
-    public Boolean updateUserV2(DtAppV2UserCreateOrUpdateModel dtAppV2UserCreateOrUpdateModel) {
+    public Boolean updateUserV2(DtAppV2UserUpdateModel dtAppV2UserUpdateModel) {
         return null;
     }
 
